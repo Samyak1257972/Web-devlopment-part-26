@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>&ltCode!&gt</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Itim', cursive;
+        }
+        
+        header {
+            position: sticky;
+        }
+        
+        .navbar {
+            background-color: aquamarine;
+            height: 80px;
+        }
+        
+        .logo {
+            float: left;
+            margin: 22px 45px;
+            font-weight: bolder;
+            font-size: 30px;
+            color: rgb(32, 72, 73);
+        }
+        
+        ul {
+            margin: 0px 453px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: rgb(24, 101, 104);
+        }
+        
+        a:hover {
+            color: rgb(32, 45, 46);
+        }
+        
+        input[type="text"]::placeholder {
+            color: white;
+        }
+        
+        input[type="text"] {
+            border-radius: 20px;
+            background-color: teal;
+            color: white;
+            border: none;
+            padding: 11px;
+        }
+        
+        .search {
+            float: right;
+            margin: 21px 55px;
+        }
+        
+        .left_text {
+            margin: 90px 10px;
+            border-radius: 20px;
+            padding: 30px;
+            width: 400px;
+            color: white;
+            background-color: rgb(33, 76, 77);
+        }
+        
+        h1 {
+            margin: 30px 20px;
+            text-align: center;
+        }
+        
+        .left_text p {
+            text-align: center;
+            margin: 20px 20px;
+        }
+        
+        button:hover {
+            background-color: aquamarine;
+            color: black;
+        }
+        
+        button {
+            cursor: pointer;
+            margin: 6px 151px;
+            border-radius: 20px;
+            border: none;
+            padding: 20px;
+            background: darkcyan;
+            color: white;
+        }
+        
+        .right_image {
+            float: right;
+        }
+        
+        .right_image img {
+            width: 700px;
+            position: absolute;
+            top: 140px;
+            right: 22px;
+        }
+        
+        li {
+            float: left;
+            list-style: none;
+            margin: 31px 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <p>&ltCode!&gt</p>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Videos</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search">
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="left_text">
+            <h1>&ltWelcome to the life of coding&gt</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quo animi nemo facilis culpa molestiae modi saepe porro delectus quasi ex dolores, ratione quisquam voluptates laudantium totam consectetur ea incidunt?</p>
+            <button class="btn">&ltExplore&gt</button>
+        </div>
+        <div class="right_image"><img src="images/hero.png" alt=""></div>
+    </section>
+</body>
+
+</html>
